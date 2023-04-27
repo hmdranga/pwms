@@ -1,0 +1,84 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/templates/small-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
+ */
+ /*Website front family*/
+body {
+  padding-top: 56px;
+  font-family: 'Rosario',Tahoma, Geneva, sans-serif;
+}
+/*Navihgation bar blue baground color*/ 
+.my-nav-bg {
+    background-color: #329D9C !important;
+}
+/*title bar title highlighter*/
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #164A41 !important;
+    border: .1px solid #329D9C; 
+    background-color: #9DC88D !important;
+    border-radius: 100px;
+}
+/* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  /*on mouseover dropdown list*/
+ .dropdown:hover .dropdown-menu {
+    display: block;
+    color: #271717 !important;
+    /*border: 1px solid;*/
+    background-color: #205072;
+ }
+ .dropdown:hover .nav-item.dropdown{
+     color: #271717 !important;
+    /*border: 1px solid #F26223;*/
+    background-color: #009999;
+    /*font-size: 20px;*/
+ }
+ 
+ 
+ #trending_product{
+     /*background-color: #FFA866;*/
+     font-family: Arial, Helvetica, sans-serif;
+     
+ }
+ 
+ .titleboader {
+    border-top-style: solid;
+    margin-top: 5px;
+    margin-right: 40%;
+    margin-bottom: 35px;
+    margin-left: 40%;
+    border-top-width: 3px;
+    border-top-color: #e5e5e5;
+}
+ 
+
+
+#discount_product {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#discount_product img {vertical-align: middle;}
+
+#discount_product .discount {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 50%;
+  padding: 10px;
+}
+dropdown-item:focus, .dropdown-item:hover {
+    color: #164A41;
+    text-decoration: #FFE400;
+    background-color: #7A9D96;
+    border-radius: 20px;
+    border: 1px solid #9DC88D;
+    font-size: 20px;
+}
+

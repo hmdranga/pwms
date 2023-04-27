@@ -1,0 +1,27 @@
+.card-primary:not(.card-outline)>.card-header {
+    background-color: #354f63 !important;
+}
+/*primary button style*/
+.btn-primary {
+    color: #fff !important;
+    background-color: #1160aa !important;
+    border-color: #00649f!important; 
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff !important;
+    background-color: #19456b !important;
+    border-color: #285e8e !important; 
+}
+/*secondary button style*/
+
+/*5a92af*/
+.btn-secondary {
+    color: #fff !important;
+    background-color: #465881 !important;
+    border-color: #515585 !important; 
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
+    color: #fff !important;
+    background-color: #272343 !important;
+    border-color: #32407b !important; 
+}
